@@ -3,32 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    min-width: 100vw;
+}
+
+/* container  */
+
 .container{
-    width: 50%;
-    text-align: center;
     margin: 4rem auto;
+    text-align: center;
 }
 
 .heading{
     color: blueviolet;
-    font-size: 3rem;
 }
 
 .description{
-    font-size: 1.5rem;
-    padding: 1rem;
-    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    margin: 1rem;
 }
+
 label{
     display: block;
-    font-size: 1.5rem;
-    margin: 1rem 0rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
 input{
     font-size: 1rem;
-    padding: 1rem;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid blueviolet;
+    border-radius: 0.5rem;
+    outline: white;
+    width: 100%;
+    max-width: 250px;
 }
 #check{
     display: block;
@@ -38,21 +47,28 @@ input{
     border-radius: 1rem;
     border: 1px solid blueviolet;
 }
+#check:hover{
+    cursor: pointer;
+}
+
+/* table  */
 
 .change-table{
     width: 50%;
     margin: auto;
+    text-align: justify;
+    border-collapse: collapse;
 }
 
 .change-table caption{
-    font-size: 1.5rem;
-    padding: 1rem;
+    margin: 1rem auto;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
-table,th,td{
+th,td{
     border: 2px solid blueviolet;
+    width: 0%;
     border-collapse: collapse;
-    padding: 1rem;
-    font-size: 1.5rem;
+    padding: 0.4rem;
 }
