@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    text-align: center;
+    margin: 4rem auto;
+}
+
+.heading{
+    color: blueviolet;
+    font-size: 3rem;
+}
+
+.description{
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+label{
+    display: block;
+    font-size: 1.5rem;
+    margin: 1rem 0rem;
+    font-weight: bold;
+}
+
+input{
+    font-size: 1rem;
+    padding: 1rem;
+}
+#check{
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border: 1px solid blueviolet;
+}
+
+.change-table{
+    width: 50%;
+    margin: auto;
+}
+
+.change-table caption{
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+table,th,td{
+    border: 2px solid blueviolet;
+    border-collapse: collapse;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
