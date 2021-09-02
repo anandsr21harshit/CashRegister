@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
 }
 body{
     min-width: 100vw;
@@ -15,7 +17,11 @@ body{
 }
 
 .heading{
-    color: blueviolet;
+    color: white;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: blueviolet;
 }
 
 .description{
@@ -32,12 +38,23 @@ label{
 input{
     font-size: 1rem;
     padding: 0.6rem 1rem;
-    margin: 1rem;
+    margin: 1rem auto;
     border: 2px solid blueviolet;
     border-radius: 0.5rem;
     outline: white;
     width: 100%;
     max-width: 250px;
+}
+#next{
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border: 1px solid blueviolet;
+}
+#next:hover{
+    cursor: pointer;
 }
 #check{
     display: block;
@@ -71,4 +88,11 @@ th,td{
     width: 0%;
     border-collapse: collapse;
     padding: 0.4rem;
+}
+
+@media screen and (max-width:600px){
+    .heading{
+        width: 60%;
+    }
+    
 }
