@@ -27,10 +27,7 @@ checkBtn.addEventListener("click",validateBillAmountAndCash);
 
 function validateBillAmountAndCash(){
     let cashReturned = cashGiven.value - billAmount.value;
-    if(billAmount.value<0){
-        alert("Bill amount must be positive");
-    }
-    else if(cashReturned <0){
+    if(cashReturned <0){
         alert("Cash Given should be atleast equal to Bill Amount");
     }
     else{
